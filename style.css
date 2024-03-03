@@ -586,8 +586,8 @@ body {
 
 /* ################# landscape mode ############## */
 
-@media (orientation: landscape) and max-height {
+@media (orientation: landscape) and (max-height: 500px) {
     .showcase-area {
-        height: 50vh;
+        height: 150vh;
     }
 }
